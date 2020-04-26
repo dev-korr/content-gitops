@@ -2,13 +2,13 @@ apiVersion: v1
 kind: Namespace
 metadata:
   labels:
-    name: hello1
+    name: hello-qa
   name: lasample
 apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: hello
-  namespace: hello1
+  namespace: hello-qa
   labels:
     app: hello
 spec:
