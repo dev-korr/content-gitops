@@ -3,7 +3,7 @@ kind: Namespace
 metadata:
   labels:
     name: hello-qa
-  name: lasample
+  name: hello-qa
 apiVersion: apps/v1
 kind: Deployment
 metadata:
